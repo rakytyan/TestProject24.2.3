@@ -25,11 +25,11 @@ class TestCalc:
         with pytest.raises(ZeroDivisionError):
             self.calc.division(self, 1, 0)
 
-    def test_substruction_succesfull(self):
-        assert self.calc.substraction(self, 1, 1) == 0
+    def test_subtraction_succesfull(self):
+        assert self.calc.subtraction(self, 1, 1) == 0
 
-    def test_substruction_unsuccesfull(self):
-        assert self.calc.substraction(self, 1, 1) == 1
+    def test_subtraction_unsuccesfull(self):
+        assert self.calc.subtraction(self, 1, 1) == 1
 
     def test_addition_successfull(self):
         assert self.calc.addition(self, 1, 1) == 2
